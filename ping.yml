@@ -1,0 +1,6 @@
+---
+- name: Play1
+  hosts: all
+  tasks:
+    - name: Task to Ping all the managed nodes
+      Ping:
